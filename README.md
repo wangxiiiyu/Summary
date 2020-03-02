@@ -1,10 +1,9 @@
-# 学习报告
-I wrote all my notes on git into my notebook and Word document before,so I need to retype  them.Well,It's wrong to stay in my happy comfort zone.
+# 学习报告 3.3
 ---
-分成了两部分：MarkDown和git（待我整理一番）
-* <a href="#md">MarkDown</a>
+分成了两部分：MarkDown和git,这里是markdown
+
+<a href ="">git</a>
 ---
-<a href="md">MarkDown</a>
 # MarkDown
 目录：<a href="#md01">标题</a>//<a href="#md02">列表</a>//<a href="#md03">分割线</a>//<a href="#md04">表格</a>//<a href="#md05">引用</a>//<a href="#md06">字体和表格</a>//<a href="#md07">链接</a>//<a href="#md08">代码</a>
 
@@ -36,8 +35,8 @@ I wrote all my notes on git into my notebook and Word document before,so I need 
 3.文本三
 ### 嵌套列表
 有序与无序，以及有序和无序列表本身都是可以自由的嵌套的。
-Markdown 中的列表嵌套，通过在符号前==增加空格==来表示。
-==同一级别下，前面的空格数目应该保持一致。==
+Markdown 中的列表嵌套，通过在符号前**增加空格**来表示。
+同一级别下，空格数目应该保持一致。
 每递进一级，习惯上使用 2 个空格缩进来表示。
 
 - 一级列表 A
@@ -73,7 +72,7 @@ _   __
 
 例：
 >| 1 | 2 | 3 |
-| --- |:---:| ---:|
+| --- |:---: | ---: |
 | aaa | bbbbbb | c |
 | aaaaaa | b | ccc |
 
@@ -115,8 +114,9 @@ _   __
 索引链接，本质上与前两种链接一致，只是索引链接将 [链接文字](链接地址) 分离为[链接文字][索引],  [索引]:链接地址 的形式。
 
 例：
-[Wikipedia Markdown 条目][1]
+[链接名][1]
 [1]:https://zh.wikipedia.org/wiki/Markdown
+
 ----
 <a name="md08"></a>
 ## 八、代码
