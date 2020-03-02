@@ -1,14 +1,14 @@
 # git
 ---
 目录：
-<a href="#git01">新建版本库</a>
-<a href="#git02">传输文件</a>
-<a href="#git03">远程仓库</a>
-<a href="#git04">文件到达查看</a>
-<a href="#git05">远程库克隆</a>
-<a href="#git06">GitHub克隆</a>
-<a href="#git07">多人协作</a>
-从这个目录可以看出来,还会更新的。
+<a href="#git01">新建版本库/</a>
+<a href="#git02">传输文件/</a>
+<a href="#git03">远程仓库/</a>
+<a href="#git04">文件到达查看/</a>
+<a href="#git05">远程库克隆/</a>
+<a href="#git06">GitHub克隆/</a>
+<a href="#git07">多人协作/</a>
+从这个与实际不符的目录可以看出来,还会更新的,（下次一定。
 
 ---
 <a name="git01"></a>
@@ -20,7 +20,7 @@ $ cd E：
 $ cd git
 $ mkdir summary
 $ cd summary
-$ pwd(用于显示当前目录我们可以看到这个库到了 d:/git/summary/.git
+$ pwd(用于显示当前目录我们可以看到这个库到了 e:/git/summary/.git
 )
 ```
 再 把summary这个库变成可以管理的仓库
@@ -68,6 +68,9 @@ $ pwd(用于显示当前目录我们可以看到这个库到了 d:/git/summary/.
   >git push origin master
 
 5.之前出了点问题
+<br>
+![翻车现场](https://raw.githubusercontent.com/wangxiiiyu/Summary/master/pic/%E5%9B%BE%E7%89%873.png)
+<br>
 如果我在GitHub上的仓库里新建了README.md文件，并进行更改，那么我就无法提交我后续的文件了，我们需要先同步一下，把GitHub上多出来的文件放到本地，保持一致。
 * 线上线下代码合并
 >git pull --rebase origin master
