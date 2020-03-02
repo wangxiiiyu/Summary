@@ -68,6 +68,9 @@ $ pwd(用于显示当前目录我们可以看到这个库到了 d:/git/summary/.
   >git push origin master
 
 5.之前出了点问题
+<br>
+![翻车现场](https://raw.githubusercontent.com/wangxiiiyu/Summary/master/pic/%E5%9B%BE%E7%89%873.png)
+<br>
 如果我在GitHub上的仓库里新建了README.md文件，并进行更改，那么我就无法提交我后续的文件了，我们需要先同步一下，把GitHub上多出来的文件放到本地，保持一致。
 * 线上线下代码合并
 >git pull --rebase origin master
