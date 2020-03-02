@@ -1,9 +1,12 @@
 # 学习报告 3.3
 ---
-分成了两部分：MarkDown和git,这里是markdown
+分成了两部分：MarkDown和git
 
 <a href ="https://github.com/wangxiiiyu/Summary/blob/master/gitL.md">git</a>
+<a href="#md">markdown</a>
 ---
+
+<a name="md"></a>
 # MarkDown
 目录：<a href="#md01">标题</a>//<a href="#md02">列表</a>//<a href="#md03">分割线</a>//<a href="#md04">表格</a>//<a href="#md05">引用</a>//<a href="#md06">字体和表格</a>//<a href="#md07">链接</a>//<a href="#md08">代码</a>
 
@@ -108,8 +111,10 @@ _   __
 图片与链接，在 Markdown 语法中表达类似，都是 [链接文字](链接地址) 这样的形式。
 ### 图片链接
 图片需要在 [] 前增加一个 ! 以使得图片在网页上直接显示，而不仅仅是个链接形式。
+```
 ![](图片链接地址)
-![我的团长我的团剧照](http://i-7.vcimg.com/crop/b3c1bd63194d8e185ab83d4d6b3984f6178975%28600x%29/thumb.jpg)
+```
+![一只猫](https://huaban.com/go/?pin_id=806165)
 ### 索引链接
 索引链接，本质上与前两种链接一致，只是索引链接将 [链接文字](链接地址) 分离为[链接文字][索引],  [索引]:链接地址 的形式。
 
