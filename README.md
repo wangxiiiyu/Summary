@@ -2,8 +2,9 @@
 ---
 分成了两部分：MarkDown和git
 
-<a href ="https://github.com/wangxiiiyu/Summary/blob/master/gitL.md">git</a>
-<a href="#md">markdown</a>
+* <a href ="https://github.com/wangxiiiyu/Summary/blob/master/gitL.md">git</a>
+<br>
+* <a href="#md">markdown</a>
 ---
 
 <a name="md"></a>
